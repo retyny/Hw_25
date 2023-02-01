@@ -12,14 +12,19 @@
 
 
 <div class="wrapper">
-  <div class="main">
-      <input class="from" id="from" type="text" placeholder="From"> <br>
-      <input class="to" id="to" type="text" placeholder="To"> <br>
+  <div class="main" id="main">
+
+      <select class="from" id="from">
+          <option value="from_">From</option>
+      </select> <br>
+      <select class="to" id="to">
+          <option value="to_">To</option>
+      </select> <br>
       <input class="amount" id="amount" type="text" placeholder="Amount">
-      <button id="btn">Calculate</button>
+      <button id="btn" onclick="sendRequestCurrencyConverter()">Calculate</button>
 
     <div id="content">
-        1
+
     </div>
   </div>
 </div>

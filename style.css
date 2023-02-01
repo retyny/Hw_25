@@ -7,3 +7,11 @@
 .main {
     margin: 0 auto;
 }
+
+.to .from {
+
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+}
